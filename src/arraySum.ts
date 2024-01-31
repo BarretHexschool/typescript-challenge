@@ -14,4 +14,7 @@
  */
 export function arraySum(numbers: number[]): number {
     // 在此實現函式
+    let start = 0
+    numbers.forEach(number => start += number)
+    return start
 }
